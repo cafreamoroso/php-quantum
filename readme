@@ -1,0 +1,36 @@
+QUANTUM IS A QUICK WRAPPER FOR PHPACTIVERECORD AND SMARTY
+
+JUST CONFIGURE YOUR PARAMETERS IN quantum/quantum.php
+
+PLACE YOUR CONTROLLERS IN /quantum/system/controllers
+PLACE YOUR VIEWS IN /quantum/system/views
+
+It uses mod_rewrite so you must upload and set up the attached .htaccess
+
+It also features a very easy to use api output class and exceptions for it.
+
+Quantum is made for building quick apps based on php, activerecord, you can use smarty, or just use quantum as a wrapper to output data.
+
+Formats provided by the api are json, jsonp, xml, serialized, text, dbug.
+
+Just upload, set up your database and location parameters, and you are done.
+
+Create your controllers and views, they will be accessible instantly at /controller
+
+For instance for /blog:
+
+Write a controller named BlogController and make it extend Quantum/Controller
+Write it's corresponding view in /views/blog/index.tpl
+
+Set up your database with your tool of choice, and then just use activerecord for getting and writing data to it.
+
+Quantum is written for fast development. It needs php 5.3 since it's use of namespaces, it also needs mod_rewrite
+
+Features:
+
+Fast
+Smarty built in
+Active Record Built in
+Adaptable Api Output Built in
+
+
