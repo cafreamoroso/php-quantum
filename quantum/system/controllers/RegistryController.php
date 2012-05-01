@@ -20,8 +20,6 @@ class RegistryController extends Quantum\Controller {
         self::createUserHook();
     }
     
-   
-    
     function guid_test() {
         
         echo Quantum\Utilities::guid();
@@ -32,7 +30,7 @@ class RegistryController extends Quantum\Controller {
         
     }
     
-    function createParticipantHook() {
+    function createUserHook() {
         
         if (isset($_POST['barcode'])) {
             
